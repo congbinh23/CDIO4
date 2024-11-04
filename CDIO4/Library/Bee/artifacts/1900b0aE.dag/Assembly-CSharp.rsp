@@ -449,6 +449,7 @@
 "Assets/C#/cutterTree.cs"
 "Assets/C#/gameManager.cs"
 "Assets/C#/Interact_hit.cs"
+"Assets/C#/lightTimeController.cs"
 "Assets/C#/toolsCharacterController.cs"
 -langversion:9.0
 /deterministic
