@@ -15,7 +15,7 @@ D:/Projects/CDIO4/CDIO4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58452
+58549
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,16 +59,16 @@ D:/Projects/CDIO4/CDIO4
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13908]  Target information:
+Player connection [13772]  Target information:
 
-Player connection [13908]  * "[IP] 169.254.86.179 [Port] 0 [Flags] 2 [Guid] 252735 [EditorId] 252735 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13772]  * "[IP] 169.254.86.179 [Port] 0 [Flags] 2 [Guid] 3768463188 [EditorId] 3768463188 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13908]  * "[IP] 169.254.209.177 [Port] 0 [Flags] 2 [Guid] 252735 [EditorId] 252735 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13772]  * "[IP] 169.254.209.177 [Port] 0 [Flags] 2 [Guid] 3768463188 [EditorId] 3768463188 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13908]  * "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 252735 [EditorId] 252735 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13772]  * "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 3768463188 [EditorId] 3768463188 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HORIKO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13908] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13908] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13772] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13772] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/Resources/UnitySubsystems
@@ -95,45 +95,45 @@ Initialize mono
 Mono path[0] = 'D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Data/Programs/Unity/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003614 seconds.
-- Loaded All Assemblies, in  0.557 seconds
+Registered in 0.003544 seconds.
+- Loaded All Assemblies, in  0.569 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.548 seconds
-Domain Reload Profiling: 1104ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1156ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (197ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (190ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (217ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (548ms)
+	FinalizeReload (588ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (480ms)
+		SetupLoadedEditorAssemblies (516ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,11 +145,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.556 seconds
+- Loaded All Assemblies, in  1.550 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -158,116 +158,354 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.242 seconds
-Domain Reload Profiling: 2796ms
-	BeginReloadAssembly (607ms)
+- Finished resetting the current domain, in  1.594 seconds
+Domain Reload Profiling: 3142ms
+	BeginReloadAssembly (610ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (821ms)
-		LoadAssemblies (485ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (811ms)
+		LoadAssemblies (495ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (486ms)
-			TypeCache.Refresh (335ms)
-				TypeCache.ScanAssembly (311ms)
-			BuildScriptInfoCaches (125ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1243ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (289ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1594ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (919ms)
+		SetupLoadedEditorAssemblies (1193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (682ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (863ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 222 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6911 unused Assets / (5.2 MB). Loaded Objects now: 7704.
-Memory consumption went from 203.9 MB to 198.7 MB.
-Total: 15.069200 ms (FindLiveObjects: 0.909300 ms CreateObjectMapping: 1.891000 ms MarkObjects: 7.355600 ms  DeleteObjects: 4.910300 ms)
+Unloading 6911 unused Assets / (4.8 MB). Loaded Objects now: 7704.
+Memory consumption went from 203.8 MB to 199.0 MB.
+Total: 15.170700 ms (FindLiveObjects: 0.961200 ms CreateObjectMapping: 1.618200 ms MarkObjects: 8.633600 ms  DeleteObjects: 3.953900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36764.009696 seconds.
-  path: Assets/sprites
-  artifactKey: Guid(b86c96f028eb6c74694a9ac615fcff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites using Guid(b86c96f028eb6c74694a9ac615fcff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9b66b613b56ca61ac7a02244ae520dc') in 0.0056659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/sprites/spriteshadowless.png
-  artifactKey: Guid(9c9daa3843f4ad64f8fcf945aefe0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/spriteshadowless.png using Guid(9c9daa3843f4ad64f8fcf945aefe0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb586635e93566f124a9ed4975c1920') in 0.2331545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.108950 seconds.
-  path: Assets/sprites/spriteshadowless.png
-  artifactKey: Guid(9c9daa3843f4ad64f8fcf945aefe0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/spriteshadowless.png using Guid(9c9daa3843f4ad64f8fcf945aefe0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f757a62226de1c45f3683161831a6b53') in 0.0966465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 296.681372 seconds.
-  path: Assets/sprites/AnimationClips
-  artifactKey: Guid(270aea36c0ffcfc438b14e2bf8b47b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips using Guid(270aea36c0ffcfc438b14e2bf8b47b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c651b78d52a55f8b7334d8b833cddb8') in 0.0007007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.165245 seconds.
-  path: Assets/sprites/AnimationClips/CharacterNewAnimations
-  artifactKey: Guid(336106a2160f7d341a7ae338277cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips/CharacterNewAnimations using Guid(336106a2160f7d341a7ae338277cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e449a90593d59e196a186797cf2417e') in 0.0006169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.280581 seconds.
-  path: Assets/sprites/AnimationClips/Anima_MainWalkDown.anim
-  artifactKey: Guid(2fc881317e5210c468d52dca53c71a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips/Anima_MainWalkDown.anim using Guid(2fc881317e5210c468d52dca53c71a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57812a64031a60838ba15d50548816a8') in 0.0016223 seconds
+  Time since last request: 37290.349459 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_0.controller
+  artifactKey: Guid(7de95b7d45395354386b63724c832ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_0.controller using Guid(7de95b7d45395354386b63724c832ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af5264d470e238e8d20a6ec2cd36555') in 0.0265966 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.220155 seconds.
-  path: Assets/sprites/AnimationClips/Anima_MainWalkLeft.anim
-  artifactKey: Guid(7410b2bd79bdfe04593f1c5fa2877a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips/Anima_MainWalkLeft.anim using Guid(7410b2bd79bdfe04593f1c5fa2877a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff54a754b29db2c6a6d5e133b4b58fab') in 0.0012224 seconds
+  Time since last request: 0.929911 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_3.controller
+  artifactKey: Guid(a99347be4c7108d4e964e7abb084a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_3.controller using Guid(a99347be4c7108d4e964e7abb084a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326a2c9d2de6f47b0ca3e24a0bd6c4ea') in 0.000981 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.343791 seconds.
-  path: Assets/sprites/AnimationClips/Anima_MainWalkRight.anim
-  artifactKey: Guid(7dae505afe7e2b04aae00b52141e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips/Anima_MainWalkRight.anim using Guid(7dae505afe7e2b04aae00b52141e16a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dccc260b3dd15fa48b4e3f4450f754ab') in 0.0013115 seconds
+  Time since last request: 0.522752 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_6.controller
+  artifactKey: Guid(68d61ce0b1c731a4eba7ba1b704f84d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_6.controller using Guid(68d61ce0b1c731a4eba7ba1b704f84d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2364e6e5ec5c320dbca3ea8bf0715144') in 0.0009955 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.304515 seconds.
-  path: Assets/sprites/AnimationClips/Anima_MainWalkUp.anim
-  artifactKey: Guid(3e9528d931c9ba540bcb2a87f1ad6502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/AnimationClips/Anima_MainWalkUp.anim using Guid(3e9528d931c9ba540bcb2a87f1ad6502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d538007ed9ac3043c84114bed5de6a') in 0.0013357 seconds
+  Time since last request: 0.490172 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_9.controller
+  artifactKey: Guid(e45ff3e2b0009b44ca25e407c1c8325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_9.controller using Guid(e45ff3e2b0009b44ca25e407c1c8325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d5296fb2fe5779ce153c171ad121f0') in 0.0011274 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363084 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_12.controller
+  artifactKey: Guid(72305b4f7f43f764095c2c39f2f2bc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_12.controller using Guid(72305b4f7f43f764095c2c39f2f2bc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '823ba83d3ab64186f6d1c3d3951fcfb7') in 0.0010228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.365074 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_15.controller
+  artifactKey: Guid(ebe70cea47de1794fbc2a310930514c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_15.controller using Guid(ebe70cea47de1794fbc2a310930514c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '373527daf4bb80b0c966beb152fccb8f') in 0.0010509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.425774 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_18.controller
+  artifactKey: Guid(feff72781e44b2b4b860a0770ad48e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_18.controller using Guid(feff72781e44b2b4b860a0770ad48e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a6ea3a2540239d18fcb5cb03affe89a') in 0.0009764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408928 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_21.controller
+  artifactKey: Guid(0b7e93e8f17965f4481614c1e322ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/spriteshadowless_21.controller using Guid(0b7e93e8f17965f4481614c1e322ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '806117cc43714a58b1edf7485ae6cbd4') in 0.0013157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.342949 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkRight.anim
+  artifactKey: Guid(ce174b06bd399cd4aa92c97839c1ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkRight.anim using Guid(ce174b06bd399cd4aa92c97839c1ffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '157780188994dcebd15c6dc9b3dde9b1') in 0.0034674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.279954 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkLeft.anim
+  artifactKey: Guid(296ad31f3fdb4e84997219046858ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkLeft.anim using Guid(296ad31f3fdb4e84997219046858ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd8cf1c6928f9a8c8accd834455232a') in 0.0010397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.972 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.485 seconds
+Domain Reload Profiling: 2460ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (282ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1042ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (817ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6909 unused Assets / (4.3 MB). Loaded Objects now: 7710.
+Memory consumption went from 169.2 MB to 164.9 MB.
+Total: 14.138100 ms (FindLiveObjects: 0.916000 ms CreateObjectMapping: 1.742400 ms MarkObjects: 7.489400 ms  DeleteObjects: 3.988800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.289839 seconds.
+  path: Assets/sprites/animatorControlers/MainCharacterController.controller
+  artifactKey: Guid(8963241dce6fd5f43a8079e2fdd66db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/animatorControlers/MainCharacterController.controller using Guid(8963241dce6fd5f43a8079e2fdd66db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2cd9b566576d2f68886e6671a3b4058') in 0.0290632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.004 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.592 seconds
+Domain Reload Profiling: 2598ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (645ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (305ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1127ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (898ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6909 unused Assets / (4.5 MB). Loaded Objects now: 7712.
+Memory consumption went from 169.2 MB to 164.6 MB.
+Total: 13.974800 ms (FindLiveObjects: 1.115800 ms CreateObjectMapping: 1.842600 ms MarkObjects: 7.435300 ms  DeleteObjects: 3.580000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 137.712145 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActUp.anim
+  artifactKey: Guid(478c7823a543e9f4bb25f6df88f169b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActUp.anim using Guid(478c7823a543e9f4bb25f6df88f169b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ded8ed218e608efbaed6406389664755') in 0.0260103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.749929 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActLeft.anim
+  artifactKey: Guid(dc05eecd8acb3784e8b1fb9c1533fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActLeft.anim using Guid(dc05eecd8acb3784e8b1fb9c1533fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8699cd38c5fced7754261d7425e646f8') in 0.0012039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.961086 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActDown.anim
+  artifactKey: Guid(67e86db71621df041a1d039d0e51b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActDown.anim using Guid(67e86db71621df041a1d039d0e51b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3633ca3fd2772d0e03e42350a5df362b') in 0.0010594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167547 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActRight.anim
+  artifactKey: Guid(4df2ea910fc4ab947aae9852007a42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainActRight.anim using Guid(4df2ea910fc4ab947aae9852007a42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb63597d038c0e5a0d3729e8129c0d82') in 0.0010394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336791 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkDown.anim
+  artifactKey: Guid(27f21d5fc3de39d4aba6fb5c72492a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkDown.anim using Guid(27f21d5fc3de39d4aba6fb5c72492a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44cc6ef6776b320b50de5cc7a0e22a4') in 0.0010406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.242032 seconds.
+  path: Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkUp.anim
+  artifactKey: Guid(dc1a6225937b59343a84349c21b7ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/AnimationClips/CharacterNewAnimations/Anima_MainWalkUp.anim using Guid(dc1a6225937b59343a84349c21b7ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb7824036ed9de92b42c73e689328907') in 0.0011206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.994 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.619 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (290ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6909 unused Assets / (4.6 MB). Loaded Objects now: 7714.
+Memory consumption went from 169.2 MB to 164.5 MB.
+Total: 14.455000 ms (FindLiveObjects: 1.576500 ms CreateObjectMapping: 1.489000 ms MarkObjects: 7.991300 ms  DeleteObjects: 3.396500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
