@@ -450,13 +450,13 @@
 "Assets/C#/CharacterInteractController.cs"
 "Assets/C#/cutterTree.cs"
 "Assets/C#/gameManager.cs"
+"Assets/C#/HighlightController.cs"
 "Assets/C#/Interactable.cs"
 "Assets/C#/Interact_hit.cs"
 "Assets/C#/lightTimeController.cs"
 "Assets/C#/LootContainterInteract.cs"
+"Assets/C#/TalkInteract.cs"
 "Assets/C#/toolsCharacterController.cs"
-"Assets/HighlightController.cs"
-"Assets/TalkInteract.cs"
 -langversion:9.0
 /deterministic
 /optimize+
