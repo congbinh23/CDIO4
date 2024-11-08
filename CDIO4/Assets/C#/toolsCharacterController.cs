@@ -6,7 +6,7 @@ public class toolsCharacterController : MonoBehaviour
     Rigidbody2D rigid2D;
     [SerializeField] float offsetDistance = 1f;
     [SerializeField] float sizeOfInteract_Area = .5f;
-
+    [SerializeField] tileMapReadController tileMapReadController;
 
     private void Awake()
     {
