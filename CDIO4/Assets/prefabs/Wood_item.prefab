@@ -103,3 +103,5 @@ MonoBehaviour:
   speed: 2.5
   Distance_pickup: 1.2
   timeOf_exist: 5
+  item: {fileID: 11400000, guid: deef7242ff9d0514dbb4935a4fc4e6ab, type: 2}
+  count: 1

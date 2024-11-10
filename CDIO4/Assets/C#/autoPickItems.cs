@@ -7,6 +7,9 @@ public class autoPickItems : MonoBehaviour
     [SerializeField] float Distance_pickup = 1.5f;
     [SerializeField] float timeOf_exist = 5f;
 
+    public Item item;
+    public int count = 1;
+
     private void Awake()
     {
         player = gameManager.instance.player.transform;
@@ -28,6 +31,14 @@ public class autoPickItems : MonoBehaviour
             player.position, speed * Time.deltaTime);
 
         if (distance < 0.1f) {
+            if (gameManager.instance.inventoryContainer != null) 
+            {
+                gameManager.instance.inventoryContainer.Add(item, count);
+            }
+            else
+            {
+                Debug.LogWarning("ko co inventory container gan vao gamemanager");
+            }
             Destroy(gameObject);
         }
 

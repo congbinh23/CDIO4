@@ -9,4 +9,5 @@ public class gameManager : MonoBehaviour
     }
 
     public GameObject player;
+    public ItemContainer inventoryContainer;
 }
